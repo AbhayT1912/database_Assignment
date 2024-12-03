@@ -1,0 +1,32 @@
+Q.7 Explain 3 schema architecture along with its advantages ?
+
+Ans : Three Schema Architecture
+
+The Three Schema Architecture is a conceptual framework that divides a database system into three levels of abstraction:
+
+External Schema:
+
+Defines the view of the database as seen by individual users or applications.
+Each user or application has its own external schema, tailored to their specific needs.
+Advantages:
+Data Independence: Changes to the internal schema or conceptual schema do not affect the external schema.
+Security: Different users can be granted access to specific parts of the database, protecting sensitive information.
+Flexibility: Users can have personalized views of the data, tailored to their specific needs.
+
+Conceptual Schema:
+
+Defines the overall logical structure of the database, independent of any physical implementation.
+It describes the entities, attributes, and relationships within the database.
+Advantages:
+Data Independence: Changes to the physical schema do not affect the conceptual schema.
+Data Integrity: Ensures data consistency and accuracy by defining constraints and rules.
+Data Sharing: Provides a unified view of the data, enabling multiple users to access and share information.
+
+Internal Schema:
+
+Defines the physical storage structure of the database, including file organizations, indexing, and storage devices.
+It is the lowest level of abstraction and is concerned with how data is physically stored and accessed.
+Advantages:
+Performance Optimization: The physical schema can be optimized for specific query patterns and workloads.
+Storage Efficiency: Data can be stored efficiently, minimizing storage costs.
+Security: Physical security measures can be implemented to protect the database from unauthorized access and data loss.

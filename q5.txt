@@ -1,0 +1,40 @@
+Q.5 . List Out the different types of classification in DBMS and explain
+
+Ans: DBMS can be classified based on several criteria, including data model, distribution, and user numbers. Here are some common classifications:
+
+1. Based on Data Model:
+Relational Database Management System (RDBMS):
+
+Uses a tabular structure to store data, organized into tables with rows and columns.
+Relationships between tables are defined using primary and foreign keys.
+Examples: MySQL, PostgreSQL, Oracle Database, SQL Server.
+Hierarchical Database Management System (HDMS):
+
+Organizes data in a hierarchical structure, like a tree, with a parent-child relationship.
+Less flexible than relational databases.
+Examples: IMS (Information Management System).
+Network Database Management System (NDMS):
+
+More flexible than HDMS, allowing records to have multiple parents.
+Complex to design and implement.
+Examples: CODASYL (Committee on Data Systems Languages).
+Object-Oriented Database Management System (OODBMS):
+
+Stores data as objects, which can have attributes and methods.
+Suitable for complex data types like images, audio, and video.
+Examples: ObjectStore, Objectivity/DB.
+NoSQL Database Management System (NoSQL):
+
+Not strictly relational, offering more flexibility and scalability.
+Categories include:
+Document Databases: Stores data in flexible, document-like structures. (e.g., MongoDB)
+Key-Value Stores: Stores data as key-value pairs. (e.g., Redis)
+Wide-Column Stores: Stores data in columns, with rows identified by a row key. (e.g., HBase)
+Graph Databases: Stores data as nodes and edges, representing relationships between entities. (e.g., Neo4j)
+2. Based on Distribution:
+Centralized DBMS: Data is stored on a single server.
+Distributed DBMS: Data is stored on multiple servers, often geographically dispersed.
+3. Based on User Number:
+Single-User DBMS: Designed for individual use.
+Multi-User DBMS: Allows multiple users to access and modify data simultaneously.
+By understanding these classifications, you can choose the most appropriate DBMS for your specific needs, considering factors like data complexity, scalability, performance, and security requirements.

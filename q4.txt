@@ -1,0 +1,34 @@
+Q.4 Explain 5 challenges of file-based storage system which was tackled by DBMS
+
+Ans: Data Redundancy:
+
+Challenge: The same data might be stored in multiple files, leading to inconsistencies and inefficiencies.
+DBMS Solution: DBMS eliminates redundancy by storing data in a centralized repository. Data is normalized, ensuring that each piece of information is stored only once. This reduces storage overhead and improves data integrity.
+
+Data Isolation:
+
+Challenge: Data is often siloed within individual files, making it difficult to share and integrate across different applications.
+DBMS Solution: DBMS provides a unified platform for storing and managing diverse data. It enables seamless integration of data from different sources, facilitating data sharing and analysis.
+
+Poor Data Integrity:
+
+Challenge: Lack of centralized control can lead to data corruption, inconsistencies, and errors.
+DBMS Solution: DBMS enforces data integrity through various mechanisms, such as:
+Data Validation: Ensuring that data conforms to specific rules and constraints.
+Transaction Management: Guaranteeing that data changes are atomic, consistent, isolated, and durable (ACID).
+Concurrency Control: Managing simultaneous access to data by multiple users to prevent conflicts and inconsistencies.
+
+Security Risks:
+
+Challenge: File-based systems often have weaker security measures, making them vulnerable to unauthorized access and data breaches.
+DBMS Solution: DBMS provides robust security features to protect sensitive data, including:
+User Authentication and Authorization: Controlling access to data based on user roles and permissions.
+Encryption: Protecting data confidentiality through encryption techniques.
+Access Control Lists (ACLs): Defining who can access and modify specific data.
+
+Inefficient Data Access:
+
+Challenge: Retrieving specific data can be time-consuming, especially for large datasets.
+DBMS Solution: DBMS optimizes data storage and retrieval through:
+Indexing: Creating data structures to speed up search and retrieval operations.
+Query Optimization: Analyzing and optimizing queries to minimize execution time.

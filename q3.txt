@@ -1,0 +1,23 @@
+Q.3 What is DBMS? What was the need for DBMS
+
+Ans: A Database Management System (DBMS) is a software application that interacts with a user, other applications, and the database itself to capture and analyze data. It provides a structured way to store, manage, and retrieve data.   
+
+Why Do We Need a DBMS?
+
+Before DBMS, data was often stored in file-based systems. This approach had several limitations:   
+
+Data Redundancy: The same data might be stored in multiple files, leading to inconsistencies and inefficiencies.
+Data Isolation: Data was often siloed within individual files, making it difficult to share and integrate across different applications.
+Poor Data Integrity: Lack of centralized control could lead to data corruption, inconsistencies, and errors.   
+Security Risks: File-based systems often had weaker security measures, making them vulnerable to unauthorized access and data breaches.   
+Limited Scalability: As data volumes grew, file-based systems became increasingly complex and difficult to manage.
+Inefficient Data Access: Retrieving specific data could be time-consuming, especially for large datasets.   
+
+DBMS addresses these issues by providing:
+
+Data Independence: Separation of data and its applications, allowing changes to one without affecting the other.   
+Data Integrity: Ensuring data accuracy and consistency through validation rules and constraints.   
+Data Security: Protecting data from unauthorized access, modification, or deletion.   
+Data Backup and Recovery: Implementing mechanisms to safeguard data against loss or damage.   
+Concurrent Access: Allowing multiple users to access and modify the same data simultaneously.   
+Efficient Data Access: Optimizing data storage and retrieval for faster performance
